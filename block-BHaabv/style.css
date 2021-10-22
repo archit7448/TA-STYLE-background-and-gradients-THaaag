@@ -1,0 +1,153 @@
+body{
+    background: linear-gradient(to top,#20222F ,#1D2029) ;
+    font-family: 'Roboto Mono', monospace;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main{
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+}
+.dark-mode-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+.button-container{
+    height: 25px;
+    width: 50px;
+    border-radius: 20px;
+    background: linear-gradient(to left,rgb(56,208,151),rgb(56,208,151,0.5));
+    display: flex;
+    align-items: center;
+}
+.circle-container{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+h5{
+    color: grey;
+    font-size: 15px;
+}
+h1{
+    margin-bottom: 0;
+}
+.dashboard{
+    display: flex;
+    background-color: #252B43;
+    width: 260px;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius:8px;
+    line-height: 0.7;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.dashboard-percentage-container{
+    display: flex;
+    color: green;
+    margin-bottom: 20px;
+    width: 34%;
+    justify-content: space-between;
+}
+.line{
+    box-sizing: border-box;
+    width:260px;
+    background-color: #1E8DEC;
+    border-radius:8px  8px 0 0 ;
+    height: 6px;
+    line-height: 0;
+}
+.logo{
+    font-size: 25px;
+    color: #1E8DEC;
+    margin-right: 10px;
+}
+h6{
+  font-size: 15px;
+  color: grey;
+}
+h2{
+    font-size: 55px;
+    margin: 0;
+}
+.green{
+    color: green;
+}
+h4{
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+}
+.red{
+    color: red;
+}
+.decrease{
+    color: red;
+}
+.youtube-logo{
+    color: red;
+}
+.youtube{
+    background-color: red;
+}
+.instagram-logo{
+    color:  #f09433;
+    box-sizing: border-box; 
+}
+.instagram{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+.percentage{
+    color: green;
+}
+.overview-container{
+    display: flex;
+    width:260px;
+    flex-direction: column;
+    background-color: #252B43;
+    line-height: 0;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.link-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.data-container{
+    display: flex;
+    justify-content: space-around;
+}
+.overview-percentage-container{
+    display: flex;
+    align-items: center;
+    width: 14%;
+    justify-content: space-between;
+}
+h3{
+   font-size: 40px;
+}
+.section2{
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.red{
+    color: red;
+}
